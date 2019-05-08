@@ -4,32 +4,24 @@ The aim of the application is to track your mood along with the activities that 
 
 The application will be very easy to use where you can enter your daily entry without any lengthy processes or writing anything, in a few clicks.
 
+## Installation
+- Download the project
+- Open the project directory in a terminal and execute `pod install`.
+- Open the project using `Mood Tracker.xcworkspace` (white icon).
+- Change the developer and certificate to ones which you have access to to utilize iCloud access (Right now I am using my personal developer account since I could not create a new container on University Account).
+- Run the project on Xcode.
+
 ## Features of the application
 
-- Login
-- Screen where you select your mood
-- Screen where you select activities you did throughout the day.
-- Home screen/ Dashboard
+- Screen where you select your mood followed by where you select activities you did throughout the day.
 - Local data persistence
-- Backing up data using iCloud Framework
+- Backing up data on iCloud
 
 ## Future Scope
 
+- Statistics and insight based on data
 - Reminder for daily entry
 - Extend the application to Apple Watch
 - Extend the application to Apple TV
-- Graph data
 
-## Development Schedule
-
-The plan is to finish the application in 7-8 Weeks as this project is being worked on along with 3 other courses I am taking. Here is an approximate timeline:
-
-- **Week 1**: Planning the flow of application and image assets
-- **Week 2**: Login
-- **Week 3**: Screen to select mood
-- **Week 4**: Screen where there is a list of activities to choose from
-- **Week 5**: A Home Screen where you land after you are done entering your entries
-- **Week 6**: Building a database
-- **Week 7**: Backing up data on iCloud
-- **Week 8**: Polish the app and make sure everything works
 
